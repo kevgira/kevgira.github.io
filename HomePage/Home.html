@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Homepage</title>
+</head>
+<body>
+    <!--First column-->
+    <!--Search-->
+    <div class="first-column">
+        <div class="searchBox">
+    <form class="searchStyle" action="https://www.google.com/search" method="Get">
+        <input class="searchPlace" type="text" name="q" placeholder="Google Search">
+        
+    </form>
+</div>
+
+     <!--schedule-->
+     <div class="schedule">
+        <h3 class="dayc" id="today"></h3>
+        <div class="icon-row">
+            <i id="workoutBtn" class="fa-solid fa-dumbbell">Workout</i>
+            <i id="studyBtn" class="fa-solid fa-book">Study</i>
+    
+        </div>
+        <p class="info">Click for info</p>
+    </div>
+</div>
+
+ <!-- Modal content -->
+ <!--WorkoutSchedule-->
+<div id="myModal" class="modal">
+
+   
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p class="note-style">pushups</p>
+    </div>
+  
+  </div>
+
+  <!-- Modal content -->
+  <!--StudySchedule-->
+<div id="smyModal" class="smodal">
+
+   
+    <div class="smodal-content">
+      <span class="close">&times;</span>
+      <p class="note-style">Read</p>
+    </div>
+  
+  </div>
+
+
+<!--Second Column-->
+    <!--Time-->
+
+    <div class="second-column">
+        <div id="watch" class="time">
+    <label id="myLabel"></label>
+</div>
+    
+
+
+
+
+
+    <!--TodoList-->
+<div class="task">
+    <h2 class="task-header">Whats on your mind</h2>
+    <form id="form">
+        <input type="text" class="input" id="input"
+        placeholder="Task" autocomplete="off">
+   
+        <ul class="todos" id="todos"> </ul>
+    </form>
+    <small id="small"  >Left click to toggle completed. <br> Double click to delete todo</small>
+</div>
+</div>
+
+<!--Third Column-->
+<div class="third-column">
+<div class="third-top">
+
+
+    <!-- Dark Mode Switch -->
+<div class="dark">
+<a onclick="myFunction()" class="dark-btn" ><img class="dark-pic" src="img/day-and-night(3).png"></a>
+
+</div>
+
+
+</div>
+<div class="player">
+    <audio id="myAudio" src="Audio/l-a-sunset-royalty-free-copyright-safe-music.mp3" ></audio>
+    <!--art by Warakami Vaporwave-->
+    <img id="spin" class="cover" src="img/Warakami vapowave.jpg" onClick="togglePlay()">
+    <p class="info">click to play</p>
+
+
+
+    <a  href="attribution.html" target="_blank" class="attBtn">attribution</a>
+
+</div>
+
+</div>
+    <script src="Home.js"></script>
+</body>
+</html>

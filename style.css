@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Covered+By+Your+Grace&family=Indie+Flower&family=Kanit&family=Orbitron:wght@500&family=Roboto:wght@300&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    text-decoration: none;
+  }
+
+
+  
+  body {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    background-color: black;
+    background-image: url(Img/visax-5SfJDUGjHpc-unsplash.jpg);
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  h1 {
+    font-size: xx-large;
+  }
+
+  h2 {
+    font-size: x-large;
+    padding: 10px;
+  }
+
+  p {
+    font-weight: bold;
+    font-size: large;
+  }
+
+
+  
+/*icons*/
+.fa-brands {
+    margin: 10px;
+    text-decoration: none;
+    color: crimson;
+}
+
+.fa-file {
+  color: lightcoral;
+  margin: 10px;
+}
+
+.fa-solid:hover {
+   color: aquamarine;
+}
+
+.fa-github-alt {
+    color: palevioletred;
+}
+
+.fa-linkedin-in {
+    color: cornflowerblue;
+}
+
+.fa-brands:hover {
+    color: aquamarine;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*NAV*/
+
+.navbar {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.nav-links {
+    padding: 1rem;
+    color: palevioletred;
+    font-size: x-large;
+}
+
+.nav-links:hover {
+  color: deeppink;
+}
+
+.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+
+section {
+    
+    height:105vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+
+
+.project-grid {
+    display: flex;
+    margin: 2rem;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem;
+    height: 360px;
+    width: 600px;
+    box-shadow: 0.3rem 0.3rem 0.5rem salmon;
+}
+
+.project-img {
+    height: 100%;
+    width: 100%;
+    
+}
+
+.project-info {
+    font-size: larger;
+    color: hotpink;
+}
+
+
+.project-link {
+    color: salmon;
+    font-size: x-large;
+}
+
+.project-link:hover {
+    color: aquamarine;
+}
+
+
