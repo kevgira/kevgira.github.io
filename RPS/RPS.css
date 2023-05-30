@@ -130,7 +130,7 @@ button {
 }
 
 .scoreItem {
-  margin: 4rem;
+  margin: 2rem;
   color: hotpink;
   font-size: xx-large;
 }
@@ -146,6 +146,7 @@ button {
 
 .card {
     border: 4px solid crimson;
+    width: 30%;
 }
 
 .card:hover{
